@@ -1,12 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(7, 110, 98);
+   
+}
+
+.nav-section {
+    background-color: rgb(7, 110, 98);
+    max-width: 1240px;
+    
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+
+
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    /* margin-right: 40px; */
+    list-style: none;
+    align-items: center;
+
+}
+li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav-name {
+    display: flex;
+    max-width: 80%;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    /* border: 2px solid rgb(0, 238, 255); */
+}
+
+.logo img {
+    max-width: 100px;
+    object-fit: cover;
+}
+.login-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+   padding: 10px 15px;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+}
+.login-btn:hover{
+    color: rgb(7, 110, 98);
+}
+/* Banner Section Styles */
+.banner{
+    max-width: 1240px;
+    min-height: 300px;
+    border: 2px solid rgb(132, 255, 0);
+    background-color: rgb(238, 245, 245);
+    padding: 10px;
+    
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.banner-img-section{
+    
+    border: 2px solid red;
+}
+.banner-img-section img{
+    display: block;
+ margin: 0 auto;
+    width: 80%;
+    border-radius: 4px;
+    margin-right: 10px;
 }
