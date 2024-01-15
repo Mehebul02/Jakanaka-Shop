@@ -56,6 +56,9 @@
         right:  130px;
        
     }
+    .footer p{
+        font-size: 0.8rem;
+    }
 }
 
 /* Responsive Tablet medium device */
