@@ -3,13 +3,18 @@
     .nav-section , ul {
         flex-direction: column;
     }
-    ul{
-        margin-left: 0 auto;
-    }
     .banner  {
         flex-direction: column;
         
     }
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    ul{
+        margin-left: 0 auto;
+    }
+    
     .banner-content{
         flex-direction: column;
         margin: 0 auto;
